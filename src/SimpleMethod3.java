@@ -1,3 +1,10 @@
+/**
+ *
+ * @author Trevor Hartman
+ * @author Jeff Grimm
+ *
+ * @since Version 1.0
+ */
 import java.util.Scanner;
 
 public class SimpleMethod3 {
@@ -8,15 +15,27 @@ public class SimpleMethod3 {
           Overloaded methods can even call each-other, but you'll have to type
           the arguments correctly and cast upon return.
      */
-    public static int square(int number) {
-        // Put your code here
-        return 0;
+    public static int square(int sqr) {
+        // Creates publicly accessible (public), static, return type int, method named square
+        // returns variable "sqr," type int
+
+        sqr = (int) Math.pow(sqr,2); // Squares sqr using function Math.pow
+        // the inclusion of "(int)" tells compiler I REALLY DO want to convert from double (.sqrt) to an integer
+
+        return (sqr); // returns value from previous line to start of method? Added at advisement of IDE
     }
 
-    public static double square(double number) {
-        // Put your code here
-        return 0;
+
+    public static double square(double sqr) {
+        // Creates publicly accessible (public), static, return type double, method named square
+        // returns variable "sqr," type int
+
+        sqr = Math.pow(sqr,2); // Squares sqr using function Math.pow
+
+
+        return(sqr); // returns value from previous line to start of method? Added at advisement of IDE
     }
+
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
