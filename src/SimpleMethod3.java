@@ -1,3 +1,9 @@
+/**
+ * @author Trevor Hartman
+ * @author Mike Quist
+ * @since Version 1.0
+ */
+
 import java.util.Scanner;
 
 public class SimpleMethod3 {
@@ -9,13 +15,11 @@ public class SimpleMethod3 {
           the arguments correctly and cast upon return.
      */
     public static int square(int number) {
-        // Put your code here
-        return 0;
+        return (int) Math.pow(number, 2);
     }
 
     public static double square(double number) {
-        // Put your code here
-        return 0;
+        return Math.pow(number, 2);
     }
 
     public static void main(String[] args) {
@@ -34,3 +38,4 @@ public class SimpleMethod3 {
         System.out.printf("The square of %f is %f%n", input2, result2);
     }
 }
+
