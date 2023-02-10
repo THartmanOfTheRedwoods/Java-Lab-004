@@ -4,10 +4,16 @@ public class Radians {
 
     public static <ADD TYPE> toRadians(<ADD TYPE> degrees) {
         // Pur your code here
+        int PI = 3.14;
+        int radians = degrees * PI / 180
+        int degrees = radians * 180 / PI
+
     }
 
-    public static <ADD TYPE> toDegrees(<ADD TYPE> radians) {
+    public static <ADD TYPE toDegrees(<ADD TYPE> radians) {
         // Put your code here
+        return null;
+
     }
 
     public static void main(String[] args) {

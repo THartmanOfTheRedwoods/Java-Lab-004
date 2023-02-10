@@ -10,11 +10,17 @@ public class SimpleMethod3 {
      */
     public static int square(int number) {
         // Put your code here
+        int n1 = 5;
+        int n2 = 5;
+        System.out.println(Math.max(n2, n1));
         return 0;
     }
 
     public static double square(double number) {
         // Put your code here
+        double n1 = 5;
+        double n2 = 5;
+        System.out.println(Math.pow(n1, n2));
         return 0;
     }
 
@@ -24,6 +30,7 @@ public class SimpleMethod3 {
         System.out.print("What number would you like to square: ");
         /* Integers Used */
         int input = Integer.valueOf(scanner.nextLine());
+
         int result = square(input);
         System.out.printf("The square of %d is %d%n", input, result);
 
