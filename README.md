@@ -27,3 +27,12 @@
 * Push it to your Remote/origin branch (i.e. GitHub)
 * Then issue a Pull request to the instructor branch
     * Make sure to save the Pull request URL and submit it for the lab.
+
+/**
+*
+* @author Trevor Hartman
+* @author Geng Cha
+*
+* @since Version 1.0
+*
+*/
