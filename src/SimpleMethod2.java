@@ -1,12 +1,23 @@
 import java.util.Scanner;
 
 public class SimpleMethod2 {
-    // Put your method code here, takes 1 integer, squares it, returns the integer result of the square.
+    public static int math (int number){
+  return (int) Math.pow (number,2.0);
 
+
+    }
     public static void main(String[] args) {
-        // Put scanner code to get integer input here
-        // Modify the below call to assign the result of the method call to a variable.
-        square(input);
-        // Put the result System.out code here.
+        Scanner in = new Scanner(System.in);
+        int input = in.nextInt();
+        int result = math(input);
+        System.out.println(result);
+
+
+
+
+
+
+
+
     }
 }
