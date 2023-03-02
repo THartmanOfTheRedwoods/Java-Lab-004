@@ -15,9 +15,9 @@
 * Complete both the *integer* and the *double* square functions, this is called method overloading!
 
 ## Part 4: Radians.java
-* Write a method called *toRadians* that converts *degrees* to *radians* without using the Java Math library.
+* Write a method called *toRadians* that converts *degrees* to *radians* without using the Java Math library's method (using Math.PI is OK).
     * HINT: degrees = radians * 180 / PI
-* Write a method called *toDegrees* that converts *radians* to *degrees* without using the Java Math library.
+* Write a method called *toDegrees* that converts *radians* to *degrees* without using the Java Math library's method (using Math.PI is OK).
     * HINT: radians = degrees * PI / 180
 * In the main function, compare your method's results to the Math.toRadians and Math.toDegrees methods by printing to the console. 
 
