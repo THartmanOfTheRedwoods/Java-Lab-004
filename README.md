@@ -28,7 +28,19 @@ Review the flow of execution through the program [Zippo.java](src/Zippo.java), a
 2. Write the number 2 next to the second line of code, and so on until the end of the program.
 3. What is the value of the parameter `blimp` when `baffle` gets invoked?
 4. What is the output of this program?
+---
+**Answers to Part 2**
 
+1. zippo("rattle", 13); is the first line of code to execute
+2. if (flag < 0) is the second line of code to execute and the following lines are all marked via comments on the actual code.
+3. The value of parameter blimp is rattle when baffle gets invoked.
+4. The output is 
+``` Bash
+ik
+rattle
+ping zoop
+boo-wa-ha-ha
+```
 ---
 
 ## Part 3: Stack Diagram and Program Output
@@ -43,7 +55,9 @@ Answer questions about stack diagrams and program output without running the pro
 2. What is the output by the following program?
     * Paste your output in the bash code-block below.
 ```bash
-
+No, I wug.
+You wugga wug.
+I wug.
 ```
 
 ---
@@ -58,6 +72,10 @@ Explore method invocations and their consequences.
 2. What happens if you use a void method as part of an expression? For example, try `System.out.println("boo!") + 7;`.
 
 ---
+**Answers to Part 4**
+1. Invoking a value method without doing anything with the result leads to that method still executing but nothing being done with the value it returns.
+2. The program tells you there is an error because the operator cannot be applied to that void method.
+---
 
 ## Part 5: Stack Diagram and Program Output
 
@@ -71,7 +89,10 @@ Draw a stack diagram that shows the state of the program the second time `zoop` 
 2. What is the complete output?
     * Paste your output in the bash code-block below.
 ```bash
-
+just for
+any not more 
+It's breakfast 
+!
 ```
 
 ## Submission
