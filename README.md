@@ -26,8 +26,33 @@ Review the flow of execution through the program [Zippo.java](src/Zippo.java), a
 **Questions to Answer In This README.md:**
 1. Write the number 1 next to the first line of code in this program that will execute.
 2. Write the number 2 next to the second line of code, and so on until the end of the program.
+A: public class Zippo { // 1
+   public static void baffle(String blimp) { // 6
+   System.out.println(blimp); // 7
+   zippo("ping", -5); // 8
+   }
+   public static void zippo(String quince, int flag) { // 2
+   if (flag < 0) { // 3
+   System.out.println(quince + " zoop"); // 10
+   } else { // 4
+   System.out.println("ik"); // 5
+   baffle(quince); // 11
+   System.out.println("boo-wa-ha-ha"); // 13
+   }
+   }
+
+   public static void main(String[] args) { // 15
+   zippo("rattle", 13); // 16
+   }
+   }
 3. What is the value of the parameter `blimp` when `baffle` gets invoked?
-4. What is the output of this program?
+A: The value of "blimp" when "baffle" gets invoked is "rattle".
+5. What is the output of this program?
+A: ik
+   rattle
+   ping zoop
+   boo-wa-ha-ha
+
 
 ---
 
@@ -44,7 +69,9 @@ Answer questions about stack diagrams and program output without running the pro
     * Paste your output in the bash code-block below.
 ```bash
 
-```
+No, I wug.
+You wugga wug.
+I wug.
 
 ---
 
@@ -55,8 +82,9 @@ Explore method invocations and their consequences.
 
 **Questions to answer in the README.md via Markdown:**
 1. What happens if you invoke a value method and don’t do anything with the result; that is, if you don’t assign it to a variable or use it as part of a larger expression?
+A: The returned value is lost and the method is executed but the result is not used.
 2. What happens if you use a void method as part of an expression? For example, try `System.out.println("boo!") + 7;`.
-
+A: The code will not compile because the void method does not return a value.
 ---
 
 ## Part 5: Stack Diagram and Program Output
@@ -64,14 +92,18 @@ Explore method invocations and their consequences.
 **Objective:**
 Draw a stack diagram that shows the state of the program the second time `zoop` is invoked in file [Part5.java](src/Part5.java). Determine the complete output.
 
-**Questions:**
-1. Draw a stack diagram that shows the state of the program the second time `zoop` is invoked.
+**Questions:**Draw a stack diagram that shows the state of the program the second time `zoop` is invoked
+1. .
     * Hint: If you Google how to use IntelliJ's **BreakPoint** functionality, you can screenshot the **program state** instead of drawing it.
     * Regardless of your methodology, a picture of the programs state should be added to this Repo and committed.
 2. What is the complete output?
     * Paste your output in the bash code-block below.
 ```bash
 
+just for
+any not more 
+It's breakfast 
+!
 ```
 
 ## Submission
