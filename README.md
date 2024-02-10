@@ -26,9 +26,39 @@ Review the flow of execution through the program [Zippo.java](src/Zippo.java), a
 **Questions to Answer In This README.md:**
 1. Write the number 1 next to the first line of code in this program that will execute.
 2. Write the number 2 next to the second line of code, and so on until the end of the program.
-3. What is the value of the parameter `blimp` when `baffle` gets invoked?
+3. What is the value of the parameter `blimp` when `baffle` gets invoked?;
+
+   <span style="color:red">**"rattle"**</span>
 4. What is the output of this program?
 
+   <span style="color:red">**ik**</span>
+   
+   <span style="color:red">**rattle**</span>
+   
+   <span style="color:red">**ping zoop**</span>
+   
+   <span style="color:red">**boo-wa-ha-ha**</span>
+
+
+      public class Zippo {
+         
+         public static void baffle(String blimp) {
+      5      System.out.println(blimp);
+      6      zippo("ping", -5);
+         }
+
+         public static void zippo(String quince, int flag) {
+      7      if (flag < 0) {
+      8         System.out.println(quince + " zoop");
+      2      } else {
+      3         System.out.println("ik");
+      4         baffle(quince);
+      9         System.out.println("boo-wa-ha-ha");
+            }
+         }
+
+      1 public static void main(String[] args) { zippo("rattle", 13); }
+      }
 ---
 
 ## Part 3: Stack Diagram and Program Output
@@ -40,10 +70,12 @@ Answer questions about stack diagrams and program output without running the pro
 1. Draw a stack diagram that shows the state of the program the first time `ping` is invoked.
     * Hint: If you Google how to use IntelliJ's **BreakPoint** functionality, you can screenshot the **program state** instead of drawing it.
     * Regardless of your methodology, a picture of the programs state should be added to this Repo and committed.
-2. What is the output by the following program?
+2. What is the output by the following program? 
     * Paste your output in the bash code-block below.
 ```bash
-
+No, I wug.
+You wugga wug.
+I wug.
 ```
 
 ---
@@ -55,8 +87,9 @@ Explore method invocations and their consequences.
 
 **Questions to answer in the README.md via Markdown:**
 1. What happens if you invoke a value method and don’t do anything with the result; that is, if you don’t assign it to a variable or use it as part of a larger expression?
+**Nothing, once the method has run, the returned value will disappear and you might get a warning from the IDE that the returned value was never used.**
 2. What happens if you use a void method as part of an expression? For example, try `System.out.println("boo!") + 7;`.
-
+**You get an error "java: not a statement", because the void method has no value and so cannot be part of an operation.**
 ---
 
 ## Part 5: Stack Diagram and Program Output
@@ -71,7 +104,10 @@ Draw a stack diagram that shows the state of the program the second time `zoop` 
 2. What is the complete output?
     * Paste your output in the bash code-block below.
 ```bash
-
+just for
+any not more 
+It's breakfast 
+!
 ```
 
 ## Submission
