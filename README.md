@@ -84,7 +84,8 @@ Draw a stack diagram that shows the state of the program the second time `zoop` 
     * Hint: If you Google how to use IntelliJ's **BreakPoint** functionality, you can screenshot the **program state** instead of drawing it.
     * Regardless of your methodology, a picture of the programs state should be added to this Repo and committed.
    
-* The output would be main()
+* The output would be
+  main()
   |
   --> zoop("just for", 5) // first invocation
   |

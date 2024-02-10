@@ -14,6 +14,6 @@ public class Zippo { //1
     }
 
     public static void main(String[] args) { //2
-        zippo("rattle", 13); //3
+        zippo("rattle", 13); //2
     }
 }
