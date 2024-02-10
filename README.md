@@ -28,7 +28,8 @@ Review the flow of execution through the program [Zippo.java](src/Zippo.java), a
 2. Write the number 2 next to the second line of code, and so on until the end of the program.
 3. What is the value of the parameter `blimp` when `baffle` gets invoked?
 4. What is the output of this program?
-
+* The value of the parameter 'blimp' when 'baffle' is invoked would be "rattle".
+* The output of this program is (ik, rattle, ping zoop, boo-wa-ha-ha)
 ---
 
 ## Part 3: Stack Diagram and Program Output
@@ -40,13 +41,25 @@ Answer questions about stack diagrams and program output without running the pro
 1. Draw a stack diagram that shows the state of the program the first time `ping` is invoked.
     * Hint: If you Google how to use IntelliJ's **BreakPoint** functionality, you can screenshot the **program state** instead of drawing it.
     * Regardless of your methodology, a picture of the programs state should be added to this Repo and committed.
+   
+* The diagram of the program the first time ping is invoked would go like
+* main()
+  |
+  --> zoop()
+  |
+  --> baffle()
+  |
+  --> ping()
+
 2. What is the output by the following program?
     * Paste your output in the bash code-block below.
-```bash
-
+```
+No, I wug.
+You wugga wug.
+I wug.
 ```
 
----
+--- 
 
 ## Part 4: Exploring Method Invocations
 
@@ -55,7 +68,9 @@ Explore method invocations and their consequences.
 
 **Questions to answer in the README.md via Markdown:**
 1. What happens if you invoke a value method and don’t do anything with the result; that is, if you don’t assign it to a variable or use it as part of a larger expression?
+* If you invoke the value method and don't do anything with the result then the code still occurs and runs but whatever result comes of it will be discarded. 
 2. What happens if you use a void method as part of an expression? For example, try `System.out.println("boo!") + 7;`.
+* If you try to use a void method as part of an expression then you will get a compile-time error. This is because the void method doesn't produce a value that can be used in an expression. The command System.out.println("boo!") is a void command so adding a 7 won't do anything until the 7 is inside the parenthesis with the "boo!".
 
 ---
 
@@ -68,10 +83,23 @@ Draw a stack diagram that shows the state of the program the second time `zoop` 
 1. Draw a stack diagram that shows the state of the program the second time `zoop` is invoked.
     * Hint: If you Google how to use IntelliJ's **BreakPoint** functionality, you can screenshot the **program state** instead of drawing it.
     * Regardless of your methodology, a picture of the programs state should be added to this Repo and committed.
+   
+* The output would be
+  main()
+  |
+  --> zoop("just for", 5) // first invocation
+  |
+  --> clink(4)
+  |
+  --> zoop("breakfast ", 4) // second invocation
+
 2. What is the complete output?
     * Paste your output in the bash code-block below.
 ```bash
-
+just for 
+any not more 
+It's breakfast
+!
 ```
 
 ## Submission
