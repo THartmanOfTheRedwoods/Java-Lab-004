@@ -1,10 +1,10 @@
 public class Zippo {
     public static void baffle(String blimp) {
-        System.out.println(blimp);
+        System.out.println(blimp);3
         zippo("ping", -5);
     }
     public static void zippo(String quince, int flag) {
-        if (flag < 0) {
+        if (flag < 0) {2
             System.out.println(quince + " zoop");
         } else {
             System.out.println("ik");
@@ -15,5 +15,5 @@ public class Zippo {
 
     public static void main(String[] args) {
         zippo("rattle", 13);
-    }
+    }1
 }
