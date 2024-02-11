@@ -29,6 +29,8 @@ Review the flow of execution through the program [Zippo.java](src/Zippo.java), a
 3. What is the value of the parameter `blimp` when `baffle` gets invoked?
 4. What is the output of this program?
 
+The value of the parameter blimp when baffle gets invoked is "ping".
+The output of this program will be: "ik rattle ping zoop boo-wa-ha-ha"
 ---
 
 ## Part 3: Stack Diagram and Program Output
@@ -43,7 +45,9 @@ Answer questions about stack diagrams and program output without running the pro
 2. What is the output by the following program?
     * Paste your output in the bash code-block below.
 ```bash
-
+No, I wug.
+You wugga wug.
+I wug.
 ```
 
 ---
@@ -56,6 +60,10 @@ Explore method invocations and their consequences.
 **Questions to answer in the README.md via Markdown:**
 1. What happens if you invoke a value method and don’t do anything with the result; that is, if you don’t assign it to a variable or use it as part of a larger expression?
 2. What happens if you use a void method as part of an expression? For example, try `System.out.println("boo!") + 7;`.
+
+1. If you invoke a value method but don't do anything with the result (such as assigning it to a variable or using it as part of a larger expression), the method still executes as usual, but the returned value is essentially discarded. This means any side effects of the method (such as printing to the console or modifying state) will still occur, but you won't be able to access or use the returned value in your program.
+
+2. Using a void method as part of an expression, such as in System.out.println("boo!") + 7;, will result in a compilation error. The reason for this is that the println method has a return type of void, meaning it does not return any value. Therefore, it cannot be used as part of an expression that expects a value to be returned, such as the addition operation (+).
 
 ---
 
@@ -71,7 +79,10 @@ Draw a stack diagram that shows the state of the program the second time `zoop` 
 2. What is the complete output?
     * Paste your output in the bash code-block below.
 ```bash
-
+just for
+any not more 
+It's breakfast 
+!
 ```
 
 ## Submission
