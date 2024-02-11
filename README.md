@@ -26,8 +26,13 @@ Review the flow of execution through the program [Zippo.java](src/Zippo.java), a
 **Questions to Answer In This README.md:**
 1. Write the number 1 next to the first line of code in this program that will execute.
 2. Write the number 2 next to the second line of code, and so on until the end of the program.
-3. What is the value of the parameter `blimp` when `baffle` gets invoked?
-4. What is the output of this program?
+3. What is the value of the parameter `blimp` when `baffle` gets invoked? 
+- rattle
+4. What is the output of this program? 
+- ik
+- rattle
+- ping zoop
+- boo-wa-ha-ha
 
 ---
 
@@ -43,7 +48,9 @@ Answer questions about stack diagrams and program output without running the pro
 2. What is the output by the following program?
     * Paste your output in the bash code-block below.
 ```bash
-
+No, I wug.
+You wugga wug.
+I wug.
 ```
 
 ---
@@ -55,7 +62,9 @@ Explore method invocations and their consequences.
 
 **Questions to answer in the README.md via Markdown:**
 1. What happens if you invoke a value method and don’t do anything with the result; that is, if you don’t assign it to a variable or use it as part of a larger expression?
+- If you call a value method but don't assign the value in the method to a variable, the value will not be used. The program will still compile and run.
 2. What happens if you use a void method as part of an expression? For example, try `System.out.println("boo!") + 7;`.
+- Compilation error, method println does not return a value.
 
 ---
 
@@ -71,7 +80,10 @@ Draw a stack diagram that shows the state of the program the second time `zoop` 
 2. What is the complete output?
     * Paste your output in the bash code-block below.
 ```bash
-
+just for
+any not more 
+It's breakfast 
+!
 ```
 
 ## Submission
