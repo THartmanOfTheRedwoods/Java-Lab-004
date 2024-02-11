@@ -27,7 +27,11 @@ Review the flow of execution through the program [Zippo.java](src/Zippo.java), a
 1. Write the number 1 next to the first line of code in this program that will execute.
 2. Write the number 2 next to the second line of code, and so on until the end of the program.
 3. What is the value of the parameter `blimp` when `baffle` gets invoked?
+* Rattle
 4. What is the output of this program?
+* ik
+* rattle
+* ping zoop
 
 ---
 
@@ -40,8 +44,16 @@ Answer questions about stack diagrams and program output without running the pro
 1. Draw a stack diagram that shows the state of the program the first time `ping` is invoked.
     * Hint: If you Google how to use IntelliJ's **BreakPoint** functionality, you can screenshot the **program state** instead of drawing it.
     * Regardless of your methodology, a picture of the programs state should be added to this Repo and committed.
+   ![img_2.png](img_2.png)
 2. What is the output by the following program?
     * Paste your output in the bash code-block below.
+    * C:\Users\Juanc\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=50589:C:\IntelliJ IDEA 2023.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Juanc\IdeaProjects\Java-Lab-004\out\production\Java-Lab-004 Zoop
+     * No, I wug.
+      * You wugga wug.
+     * I wug.
+
+Process finished with exit code 0
+
 ```bash
 
 ```
@@ -55,7 +67,9 @@ Explore method invocations and their consequences.
 
 **Questions to answer in the README.md via Markdown:**
 1. What happens if you invoke a value method and don’t do anything with the result; that is, if you don’t assign it to a variable or use it as part of a larger expression?
+* like if you never called the method at all
 2. What happens if you use a void method as part of an expression? For example, try `System.out.println("boo!") + 7;`.
+*  Java: not a statement 
 
 ---
 
@@ -68,8 +82,16 @@ Draw a stack diagram that shows the state of the program the second time `zoop` 
 1. Draw a stack diagram that shows the state of the program the second time `zoop` is invoked.
     * Hint: If you Google how to use IntelliJ's **BreakPoint** functionality, you can screenshot the **program state** instead of drawing it.
     * Regardless of your methodology, a picture of the programs state should be added to this Repo and committed.
+   ![img_1.png](img_1.png)
 2. What is the complete output?
     * Paste your output in the bash code-block below.
+    * C:\Users\Juanc\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=50752:C:\IntelliJ IDEA 2023.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Juanc\IdeaProjects\Java-Lab-004\out\production\Java-Lab-004 Part5
+      * just for
+      * any not more
+     * It's breakfast
+     * !
+
+Process finished with exit code 0
 ```bash
 
 ```
@@ -81,4 +103,5 @@ Follow these steps for submission:
 3. Commit your answers to your local copy/Feature01 branch.
 4. Push it to your Remote/origin branch (i.e., GitHub: Feature01 -> origin/Feature01).
 5. Issue a Pull request to my instructor repo.
-6. **Make sure to COPY the Pull request URL and submit it for the lab/assignment in Canvas.**
+6. **Make sure to COPY the Pull request URL and submit it for the lab/assignment in Canvas.**\
+
