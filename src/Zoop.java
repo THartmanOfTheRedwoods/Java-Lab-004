@@ -9,7 +9,7 @@ public class Zoop {
         ping();
     }
     public static void ping() {
-        System.out.println(".");
+            System.out.println(".");
     }
     public static void main(String[] args) {
         System.out.print("No, I ");
