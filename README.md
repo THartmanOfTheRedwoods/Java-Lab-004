@@ -29,6 +29,10 @@ Review the flow of execution through the program [Zippo.java](src/Zippo.java), a
 3. What is the value of the parameter `blimp` when `baffle` gets invoked?
 4. What is the output of this program?
 
+// The value of the parameter blimp when baffle gets invoked is "rattle" 
+ 
+// The output of this program is; ik, rattle, ping zoop, boo-wa-ha-ha
+
 ---
 
 ## Part 3: Stack Diagram and Program Output
@@ -42,7 +46,19 @@ Answer questions about stack diagrams and program output without running the pro
     * Regardless of your methodology, a picture of the programs state should be added to this Repo and committed.
 2. What is the output by the following program?
     * Paste your output in the bash code-block below.
+
+   Stack diagram;
+
+Stack Diagram for the First Invocation of ping:
+* Main method activation record: Local variables: args (String[])
+* zoop method activation record: No local variables
+* baffle method activation record: No local variables
+* ping method activation record: No local variables
+
 ```bash
+No, I wug.
+You wugga wug.
+I wug.
 
 ```
 
@@ -57,6 +73,14 @@ Explore method invocations and their consequences.
 1. What happens if you invoke a value method and don’t do anything with the result; that is, if you don’t assign it to a variable or use it as part of a larger expression?
 2. What happens if you use a void method as part of an expression? For example, try `System.out.println("boo!") + 7;`.
 
+When you invoke a value method and dont do anything with the result, the method will still execute but the return value is thrown out. 
+
+if you used a void method as part of an expression you would get a compilation error like ;
+
+Error: bad operand types for binary operator '+'
+first type:  void
+second type: int
+
 ---
 
 ## Part 5: Stack Diagram and Program Output
@@ -70,7 +94,13 @@ Draw a stack diagram that shows the state of the program the second time `zoop` 
     * Regardless of your methodology, a picture of the programs state should be added to this Repo and committed.
 2. What is the complete output?
     * Paste your output in the bash code-block below.
+
+The stack diagram is the same as mentioned before I believe, no changes to the diagram are needed
+
 ```bash
+No, I wug.
+You wugga wug.
+I wug.
 
 ```
 
