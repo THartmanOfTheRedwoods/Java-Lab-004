@@ -27,7 +27,12 @@ Review the flow of execution through the program [Zippo.java](src/Zippo.java), a
 1. Write the number 1 next to the first line of code in this program that will execute.
 2. Write the number 2 next to the second line of code, and so on until the end of the program.
 3. What is the value of the parameter `blimp` when `baffle` gets invoked?
+   >rattle
 4. What is the output of this program?
+   >ik <br>
+   rattle <br>
+   ping zoop <br>
+   boo-wa-ha-ha <br>
 
 ---
 
@@ -39,11 +44,14 @@ Answer questions about stack diagrams and program output without running the pro
 **Questions:**
 1. Draw a stack diagram that shows the state of the program the first time `ping` is invoked.
     * Hint: If you Google how to use IntelliJ's **BreakPoint** functionality, you can screenshot the **program state** instead of drawing it.
-    * Regardless of your methodology, a picture of the programs state should be added to this Repo and committed.
+      * Regardless of your methodology, a picture of the programs state should be added to this Repo and committed.
+            ![Ping state 1](PingState1.png)
 2. What is the output by the following program?
     * Paste your output in the bash code-block below.
 ```bash
-
+No, I wug.
+You wugga wug
+I wug.
 ```
 
 ---
@@ -55,8 +63,9 @@ Explore method invocations and their consequences.
 
 **Questions to answer in the README.md via Markdown:**
 1. What happens if you invoke a value method and don’t do anything with the result; that is, if you don’t assign it to a variable or use it as part of a larger expression?
+   >The method is executed but the returned value is lost. 
 2. What happens if you use a void method as part of an expression? For example, try `System.out.println("boo!") + 7;`.
-
+   > You get a compile error that says "not a statement" and IntelliJ says "Operator '+' cannot be applied to 'void'."
 ---
 
 ## Part 5: Stack Diagram and Program Output
@@ -68,10 +77,14 @@ Draw a stack diagram that shows the state of the program the second time `zoop` 
 1. Draw a stack diagram that shows the state of the program the second time `zoop` is invoked.
     * Hint: If you Google how to use IntelliJ's **BreakPoint** functionality, you can screenshot the **program state** instead of drawing it.
     * Regardless of your methodology, a picture of the programs state should be added to this Repo and committed.
+   ![zoop state 2](Zoop2State.png)
 2. What is the complete output?
     * Paste your output in the bash code-block below.
 ```bash
-
+just for
+any not more 
+It's breakfast 
+!
 ```
 
 ## Submission
