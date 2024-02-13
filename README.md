@@ -43,7 +43,9 @@ Answer questions about stack diagrams and program output without running the pro
 2. What is the output by the following program?
     * Paste your output in the bash code-block below.
 ```bash
-
+C:\Users\diego\.jdks\openjdk-21.0.2\bin\java.exe -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:53292,suspend=y,server=n -javaagent:C:\Users\diego\AppData\Local\JetBrains\IdeaIC2023.3\captureAgent\debugger-agent.jar -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\diego\IdeaProjects\Java-Lab-004\out\production\Java-Lab-004;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\lib\idea_rt.jar" Zoop
+Connected to the target VM, address: '127.0.0.1:53292', transport: 'socket'
+No, I wug
 ```
 
 ---
@@ -57,6 +59,16 @@ Explore method invocations and their consequences.
 1. What happens if you invoke a value method and don’t do anything with the result; that is, if you don’t assign it to a variable or use it as part of a larger expression?
 2. What happens if you use a void method as part of an expression? For example, try `System.out.println("boo!") + 7;`.
 
+## #1
+```
+If you invoke a method you and don't do anything with it nothing will happen.
+The method will basically be useless.
+```
+## #2
+```
+you get the error nessage :3:36
+java: not a statement. Which basically means that the compiler doesn't understand the code porbably because it's not returning anything.
+```
 ---
 
 ## Part 5: Stack Diagram and Program Output
@@ -71,7 +83,11 @@ Draw a stack diagram that shows the state of the program the second time `zoop` 
 2. What is the complete output?
     * Paste your output in the bash code-block below.
 ```bash
-
+C:\Users\diego\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\lib\idea_rt.jar=53448:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\diego\IdeaProjects\Java-Lab-004\out\production\Java-Lab-004 Part5
+just for
+any not more 
+It's breakfast 
+!
 ```
 
 ## Submission
